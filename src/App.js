@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import CreateUserPage from './createUser';
+import GetUserByIdPage from './getUser';
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
         >
           Learn React
         </a>
+        {CreateUserPage()}
+        {GetUserByIdPage()}
       </header>
     </div>
   );
